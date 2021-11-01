@@ -1,12 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!--Remote-->
+
   <remote name="ArkanMuhammad1986"
           fetch="https://github.com/ArkanMuhammad1986" />
 
+  <remote name="kenhv"
+          fetch="https://github.com/KenHV" />
+
+  <remote name="404"
+	  fetch="https://github.com/P-404" />
+
+  <remote name="shashank1436"
+          fetch="https://github.com/shashank1436" />
+
   <!-- Trees -->
   <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
-  <project path="vendor/mido" name="proprietary_vendor_xiaomi" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
-  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
+  <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
+  <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
+
+  <!-- Sync extras -->
+        <remove-project name="android_vendor_resurrection" />
+	<remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <project path="vendor/rr" name="android_vendor_resurrection" remote="ArkanMuhammad1986" revision="Q" />
+        <project path="hardware/qcom-caf/msm8996/display" name="platform_hardware_qcom_display" remote="kenhv" revision="master" />
+        <project path="hardware/qcom-caf/msm8996/media" name="platform_hardware_qcom_media" remote="kenhv" revision="master" />
+
+  <!-- GCC -->
+        <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-elf" remote="404" revision="rippa" clone-depth="1" />
+        <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi" remote="404" revision="rippa" clone-depth="1" />
 
 </manifest>
