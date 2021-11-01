@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+  <!--Remote-->
   <remote name="ArkanMuhammad1986"
           fetch="https://github.com/ArkanMuhammad1986" />
-  <remote name="zeelog"
-          fatch="https://github.com/zeelog" />
 
-  <!-- sync Trees -->
-  <project path="device/xiaomi/mido" name="https://github.com/ArkanMuhammad1986/android_device_xiaomi_mido.git" remote="github" revision="main" />
-  <project path="vendor/mido" name="https://github.com/ArkanMuhammad1986/proprietary_vendor_xiaomi.git" remote="github" revision="main" />
-  <project path="kernel/xiaomi/mido" name="https://github.com/ArkanMuhammad1986/android_kernel_xiaomi_mido.git" remote="github" revision="normal" />
+  <!-- Trees -->
+  <project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
+  <project path="vendor/mido" name="proprietary_vendor_xiaomi" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
+  <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
 
 </manifest>
