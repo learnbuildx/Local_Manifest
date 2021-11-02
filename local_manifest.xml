@@ -15,33 +15,6 @@
         <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="ArkanMuhammad1986" revision="lineage-17.1-4.9" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 
-  <!-- Remove some projects -->
-	<remove-project name="device/common"/>
-	<remove-project name="device/generic/arm64"/>
-	<remove-project name="device/generic/armv7-a-neon"/>
-	<remove-project name="device/generic/x86_64"/>
-	<remove-project name="device/google_car"/>
-	<remove-project name="device/generic/art"/>
-	<remove-project name="device/generic/car"/>
-	<remove-project name="device/generic/common"/>
-	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-	<remove-project name="device/generic/mini-emulator-x86"/>
-	<remove-project name="device/generic/mini-emulator-x86_64"/>
-	<remove-project name="device/generic/qemu"/>
-	<remove-project name="device/generic/trusty"/>
-	<remove-project name="device/generic/x86"/>
-        <remove-project name="platform/hardware/qcom/sdm845/bt" />
-        <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-        <remove-project name="platform/hardware/qcom/sdm845/display" />
-        <remove-project name="platform/hardware/qcom/sdm845/gps" />
-        <remove-project name="platform/hardware/qcom/sdm845/media" />
-        <remove-project name="platform/hardware/qcom/sdm845/thermal" />
-        <remove-project name="platform/hardware/qcom/sdm845/vr"/>
-        <remove-project name="kernel/tests" />
-        <remove-project name="platform/prebuilts/android-emulator" />
-        <remove-project name="platform/prebuilts/qemu-kernel" />
-        <remove-project name="kernel/prebuilts/4.19/arm64"/>
-
   <!-- Sync extras -->
         <remove-project name="android_vendor_resurrection" />
 	<remove-project name="LineageOS/android_hardware_qcom_media" />
