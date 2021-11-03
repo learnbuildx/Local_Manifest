@@ -7,8 +7,6 @@
   <remote name="shashank1436"
           fetch="https://github.com/shashank1436" />
 
- 
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
