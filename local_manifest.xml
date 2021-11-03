@@ -7,9 +7,13 @@
   <remote name="shashank1436"
           fetch="https://github.com/shashank1436" />
 
+  <remote name="GengKapak"
+          fetch="https://github.com/GengKapak" />
+
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
         <project path="vendor/xiaomi/mido" name="proprietary_vendor_xiaomi" remote="ArkanMuhammad1986" revision="lineage-rr" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
+        <project path="prebuilts/clang/host/linux-x86/clang-GengKapak" name="clang-GengKapak" remote="GengKapak" revision="14" clone-depth="1" />
 
 </manifest>
