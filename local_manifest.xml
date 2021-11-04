@@ -8,7 +8,7 @@
           fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_xiaomi_mido-2" remote="ArkanMuhammad1986" revision="Weebprojekt" />
+        <project path="device/xiaomi/mido" name="device_xiaomi_mido-2" remote="ArkanMuhammad1986" revision="Spark" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido-1" remote="ArkanMuhammad1986" revision="11" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 
