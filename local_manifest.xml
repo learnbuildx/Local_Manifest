@@ -9,7 +9,6 @@
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="SparkOS" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="ArkanMuhammad1986" revision="common-11.0" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="Spark" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 
