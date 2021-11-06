@@ -4,12 +4,11 @@
   <remote name="ArkanMuhammad1986"
           fetch="https://github.com/ArkanMuhammad1986" />
 
-  <remote name="Hunter-Commits"
-          fetch="https://github.com/Hunter-commits" />
+  <remote name="shashank1436"
+          fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
-        <project path="kernel/xiaomi/mido" name="kernel_mido" remote="Hunter-commits" revision="oc" />
-
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 </manifest>
