@@ -7,12 +7,9 @@
   <remote name="shashank1436"
           fetch="https://github.com/shashank1436" />
 
-  <remote name="EndCredits"
-          fetch="https://github.com/EndCredits" />
-
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
-        <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="EndCredits" revision="ten" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common-1" remote="ArkanMuhammad1986" revision="ten" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="rr" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 </manifest>
