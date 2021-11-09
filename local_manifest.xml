@@ -5,7 +5,7 @@
           fetch="https://github.com/ArkanMuhammad1986" />
 
   <remote name="shashank1436"
-          fecth="https://github.com/shashank1436" />
+          fetch="https://github.com/shashank1436" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="dt_aex_mido" remote="ArkanMuhammad1986" revision="aex11" />
