@@ -5,7 +5,7 @@
           fetch="https://github.com/ArkanMuhammad1986" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="dta12" remote="ArkanMuhammad1986" revision="Aex" />
+        <project path="device/xiaomi/mido" name="Aex" remote="ArkanMuhammad1986" revision="Aex" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="Aex" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="Aex" />
         
