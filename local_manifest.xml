@@ -8,5 +8,6 @@
         <project path="device/xiaomi/mido" name="dta12" remote="ArkanMuhammad1986" revision="Aex" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="Aex" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="Aex" />
+        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
 
 </manifest>
