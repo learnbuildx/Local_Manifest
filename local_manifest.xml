@@ -8,4 +8,8 @@
         <project path="device/xiaomi/mido" name="Fluid" remote="ArkanMuhammad1986" revision="fluid" />
         <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="arrow-11.0" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="arrow-11.0" />
+
+  <!-- Sync Extra -->
+        <project path="external_selinux" name="external_selinux" remote="Project-Fluid" revision="Fluid-11" />
+
 </manifest>
