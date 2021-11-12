@@ -10,5 +10,5 @@
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="Hycon" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="exthm-11" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11oc" />
+        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11" />
 </manifest>
