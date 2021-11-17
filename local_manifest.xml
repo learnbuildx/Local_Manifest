@@ -4,12 +4,9 @@
   <remote name="ArkanMuhammad1986"
           fetch="https://github.com/ArkanMuhammad1986" />
 
-  <remote name="shashank1436"
-          fetch="https://github.com/shashank1436" />
-
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="Aex" />
+        <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="aex" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11oc" />
+        <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
 
 </manifest>
