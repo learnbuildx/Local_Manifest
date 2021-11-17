@@ -4,10 +4,13 @@
   <remote name="ArkanMuhammad1986"
           fetch="https://github.com/ArkanMuhammad1986" />
 
+  <remote name="LineageOS"
+          fetch="https://github.com/LineageOS" />
+
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="aex" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
         <project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
-        <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-18.1" />
+        <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LineageOS" revision="lineage-18.1" />
 
 </manifest>
