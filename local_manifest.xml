@@ -5,7 +5,7 @@
           fetch="https://github.com/ArkanMuhammad1986" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="ArkanMuhammad1986" revision="banana" />
+        <project path="device/xiaomi/mido" name="device_xiaomi_mido-1" remote="ArkanMuhammad1986" revision="1" />
         <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
         <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="ArkanMuhammad1986" revision="eleven" />
 
