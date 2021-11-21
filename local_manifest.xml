@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ArkanMuhammad1986"
-          fetch="https://github.com/ArkanMuhammad1986" />
-
-  <remote name="shashank1436"
-          fetch="https://github.com/shashank1436" />
+  <remote name="learnbuildx"
+          fetch="https://github.com/learnbuildx" />
 
   <!-- Trees -->
-        <project path="device/xiaomi/mido" name="device_xiaomi_mido-1" remote="ArkanMuhammad1986" revision="Aex" />
-        <project path="vendor/xiaomi" name="vendor_xiaomi_mido" remote="ArkanMuhammad1986" revision="lineage-18.1" />
-        <project path="kernel/xiaomi/mido" name="kernel_xiaomi_mido" remote="shashank1436" revision="r11oc" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="learnbuildx" revision="11" />
+        <project path="vendor/asus" name="vendor_asus_X00TD" remote="learnbuildx" revision="11" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="learnbuildx" revision="master" />
 
 </manifest>
