@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="ArkanMuhammad1986"
-          fetch="https://github.com/ArkanMuhammad1986" />
+  <remote name="learnbuildx"
+          fetch="https://github.com/learnbuildx" />
 
-  <remote name="shashank1436"
-          fetch="https://github.com/shashank1436" />
+  <remote name=""
+          fetch="https://github.com/" />
 
   <!-- Trees -->
         <project path="device/xiaomi/mido" name="device_xiaomi_mido-1" remote="ArkanMuhammad1986" revision="Aex" />
